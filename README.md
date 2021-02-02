@@ -1,15 +1,36 @@
 # Flask_Web_App
 
-# Setup Python Virtual Env
+## Setup And Installation
+
+```bash
+git clone <repo-url>
+```
+
+### Setup Python Virtual Env
+
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 
-# Update Packages
+```bash
+pip install -r requirements.txt
+```
+
+### Update Packages
+
+```bash
 pip install pip -U
 pip install setuptools -U
 pip install pylint
+```
 
-# Installing Dependencies
-pip install flask
-pip install flask-login
-pip install flask-sqlalchemy
+## Running The App
+
+```bash
+python main.py
+```
+
+## Viewing The App
+
+Go to `http://127.0.0.1:5000`
